@@ -1,0 +1,22 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "1. Create a fork of [this](https://github.com/sf-wdi-36/personal-portfolio) by clicking \"Fork\" on the top right.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sf-wdi-36/personal-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sf-wdi-36/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/sf-wdi-36/personal-portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
