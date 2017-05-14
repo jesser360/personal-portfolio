@@ -1,1 +1,35 @@
 /* custom styles */
+
+.main-gif{
+  width:100%;
+  height:90%;
+  margin-top: -50px;
+  position: fixed;
+  z-index: -1;
+  clear:both;
+}
+
+.proj-header{
+  display: block;
+  clear: both;
+}
+.proj-pic{
+  width:100%;
+  margin:30px;
+}
+.proj-pic:hover{
+  border:2px solid orange;
+}
+.git-pic{
+  height:4vw;
+}
+.git-pic:hover{
+  border:2px solid orange;
+}
+.proj1{
+  background-color: lightgray;
+}
+
+.proj2{
+  background-color: darkgray;
+}
