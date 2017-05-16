@@ -19,13 +19,26 @@ $('.home-pic').mouseleave(function(){
  //   $('.yard-gif').addClass('hidden')
  // })
 
+ $(".trade-still").hover(function(){
+   $("#trade-still").attr("src","http://i.imgur.com/DiaXMOZ.gif");
+   $("#tradeclick").removeClass('hidden')
+ },
+ function()
+ {
+   $("#trade-still").attr("src","http://i.imgur.com/9LCgIzz.png");
+   $("#tradeclick").addClass('hidden')
+ });
+
  $(".yard-still").hover(function(){
       $("#yard-still").attr("src","http://i.imgur.com/B3mKgAh.gif");
+      $("#yardclick").removeClass('hidden')
     },
     function()
     {
         $("#yard-still").attr("src","http://i.imgur.com/ekydVZX.png");
+        $("#yardclick").addClass('hidden')
     });
+
 
 $('.item').click(function(){
 $(this).siblings('.active').removeClass('active');
