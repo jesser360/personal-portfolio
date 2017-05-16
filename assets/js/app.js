@@ -10,6 +10,23 @@ $('.home-pic').mouseleave(function(){
   $('#msg').addClass('hidden');
 })
 
+ // $('.yard-still').hover(function(){
+ //   $('.yard-still').addClass('hidden')
+ //   $('.yard-gif').removeClass('hidden')
+ // })
+ // $('.yard-still').mouseleave(function(){
+ //   $('.yard-still').removeClass('hidden')
+ //   $('.yard-gif').addClass('hidden')
+ // })
+
+ $(".yard-still").hover(function(){
+      $("#yard-still").attr("src","http://i.imgur.com/B3mKgAh.gif");
+    },
+    function()
+    {
+        $("#yard-still").attr("src","http://i.imgur.com/ekydVZX.png");
+    });
+
 $('.item').click(function(){
 $(this).siblings('.active').removeClass('active');
 $(this).addClass('active');
@@ -51,5 +68,4 @@ $("#port-btn").click(function() {
         scrollTop: $("#port").offset().top
     }, 1500);
 });
-
 });
