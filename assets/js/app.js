@@ -81,4 +81,47 @@ $("#port-btn").click(function() {
         scrollTop: $("#port").offset().top
     }, 1500);
 });
+
+
+
+
+
+
+
+// Parallax
+var words = $('.words');
+var icons = $('.icons');
+var scrollPos = window.pageYOffset;
+var parallaxW = function() {
+  for (var i = 0, len = words.length; i < len; i++) {
+    var word = words[i];
+    var ymovement = (scrollPos*.3) * .6;
+    var xmovement = 0;
+    var translate3d = 'translate3d('+ymovement + 'px,' + xmovement + 'px,0)';
+    word.style['-webkit-transform'] = translate3d;
+    word.style.transform = translate3d;
+  }
+};
+var parallaxI = function() {
+  for (var i = 0, len = words.length; i < len; i++) {
+    var icon = icons[i];
+    var ymovement = (scrollPos*.3) *- .6;
+    var xmovement = 0;
+    var translate3d = 'translate3d('+ymovement + 'px,' + xmovement + 'px,0)';
+    icon.style['-webkit-transform'] = translate3d;
+    icon.style.transform = translate3d;
+  }
+};
+
+window.requestAnimationFrame(parallaxW);
+window.addEventListener('scroll', function() {
+  // Parallax layers
+  scrollPos = window.pageYOffset;
+  window.requestAnimationFrame(parallaxW);
+  window.requestAnimationFrame(parallaxI);
+
+});
+
+
+
 });

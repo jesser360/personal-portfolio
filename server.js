@@ -1,6 +1,11 @@
 var express = require('express'),
     app = express();
 
+var parallax = require('scrollmonitor-parallax');
+
+
+
+
 app.use(express.static(__dirname +'/public'));
 
 app.get('/', function index(req, res) {

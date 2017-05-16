@@ -17,10 +17,11 @@
   },
   "homepage": "https://github.com/sf-wdi-36/personal-portfolio#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "scrollmonitor-parallax": "^1.0.1"
   },
   "engines": {
     "node": "7.5.0",
     "npm": "4.1.2"
-}
+  }
 }
