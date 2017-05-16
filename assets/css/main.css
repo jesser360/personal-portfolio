@@ -29,7 +29,12 @@
 .hi-im{
   font-size: 60px;
   color:gray;
-  margin:80px;
+  margin:60px;
+  margin-top: 30px !important;
+}
+.title{
+  font-size: 60px;
+  color:gray;
 }
 .trans{
   font-size: 30px;

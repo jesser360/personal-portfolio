@@ -37,4 +37,19 @@ if ($(this).hasClass("ruby")){
 }
 });
 
+var divs = $('div[id^="content-"]').hide(),
+    i = 0;
+(function cycle() {
+    divs.eq(i).fadeIn(400)
+              .delay(600)
+              .fadeOut(400, cycle);
+    i = ++i % divs.length;
+})();
+
+$("#port-btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#port").offset().top
+    }, 1500);
+});
+
 });
