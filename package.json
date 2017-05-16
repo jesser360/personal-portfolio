@@ -18,5 +18,9 @@
   "homepage": "https://github.com/sf-wdi-36/personal-portfolio#readme",
   "dependencies": {
     "express": "^4.15.2"
-  }
+  },
+  "engines": {
+    "node": "0.10.11",
+    "npm": "1.2.25"
+}
 }
