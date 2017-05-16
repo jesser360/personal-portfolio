@@ -2,20 +2,44 @@
 
 .main-gif{
   width:100%;
-  height:90%;
+  height:110%;
   margin-top: -50px;
   position: fixed;
   z-index: -1;
   clear:both;
 }
-
 .proj-header{
   display: block;
   clear: both;
 }
+.hidden{
+  display: none;
+  position: relative;
+  z-index: -1;
+  clear:both;
+}
+.empty-block{
+  display: block;
+  margin:140px;
+  clear:both;
+}
+.item{
+  font-size: 20px;
+}
+.hi-im{
+  font-size: 60px;
+  color:gray;
+  margin:80px;
+}
+.trans{
+  font-size: 30px;
+}
 .proj-pic{
   width:100%;
   margin:30px;
+}
+.trans{
+  color: red;
 }
 .proj-pic:hover{
   border:2px solid orange;
@@ -24,12 +48,37 @@
   height:4vw;
 }
 .git-pic:hover{
-  border:2px solid orange;
+  animation: pulse 2s infinite;
 }
 .proj1{
   background-color: lightgray;
 }
-
 .proj2{
   background-color: darkgray;
+}
+.home-pic{
+  border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+height: auto;
+width: auto;
+max-width: 85px;
+max-height: 85px;
+margin-top: 75px;
+border:3px solid black;
+-webkit-box-shadow: 1px 1px 1px 1px #fff;
+-moz-box-shadow: 1px 1px 1px 1px #fff;
+box-shadow: 1px 1px 1px 1px #fff;
+margin-top: auto;
+position: fixed;
+z-index: 1000;
+margin-left:25px;
+}
+#msg{
+ position:fixed;
+ margin-left:100px;
+ color:black;
+ z-index:100;
+ font-weight:bold;
+ font-size: 19px;
 }

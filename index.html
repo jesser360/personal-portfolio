@@ -4,70 +4,163 @@
 <head>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+  <link <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./assets/js/app.js"></script>
 
-  <meta charset="utf-8">
   <title>Jesse's portfolio</title>
 </head>
 
 <body>
-
   <div class="ui grid main-gif">
     <div class="row">
       <div class=" sixteen wide column">
-        <img src="http://i.imgur.com/lGM7JoD.gif" class="main-gif" />
+        <img src="http://i.imgur.com/REiiBmm.gif" class="main-gif" />
       </div>
     </div>
   </div>
+  <div class="ui grid centered proj-header ">
+    <div class=" two wide column">
+      <a href="#"><img src ="http://i.imgur.com/j5v8TRk.jpg" class ="home-pic" /><p id ="msg" class="hidden">back to the top?</p></a>
+    </div>
+    <div class ="six wide column">
+    </div>
+    <div class=" eight wide column">
+      <div class="ui three item menu stay" style="background-color: transparent;border:none !important">
+        <a href ="#about" class=" item trans" style="color:lightgray">About</a>
+        <a href ="#portfolio" class="item trans" style="color:gray">Portfolio</a>
+        <a href ="#contact" class="item trans">Contact</a>
+      </div>
+    </div>
+    <div class="empty-block">
 
-  <div class="ui grid centered proj-header">
+    </div>
+    <div class ="sixteen wide column hi-im left aligned">
+      Hi, Im Jesse, and Im a
+    </div>
     <div class="row">
-      <h1 class="five  wide proj-header">Past Projects</h1><br />
+      <h1 class="five  wide proj-header"style="font-size:35px;color:gray" id="portfolio">Portfolio</h1>
     </div>
   </div>
+  <div class="ui container">
 
-  <div class="ui container-fluid proj1">
-    <div class="ui grid">
-      <div class="seven wide column" style="padding:20px">
-        <a target="_blank" href ="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/5uQyk1D.png" class="proj-pic" /></a>
-      </div>
-      <div class="seven wide column" style="margin:50px">
-        <h2>YardSpace -- Ruby on Rails(postgreSQL)</h2>
-        <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
-        <a target="_blank" href ="https://github.com/jesser360/YardSpace"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
-      </div>
+    <div class="ui top attached tabular menu">
+      <a class="active item ruby" style="color:gray">Ruby on Rails</a>
+      <a class="item free" style="color:gray">Freelance</a>
+      <a class="item react" style="color:gray">React/MEN stack</a>
+      <a class="item games" style="color:gray">Games</a>
     </div>
   </div>
-  <br />
-  <div class="ui container-fluid proj2">
-    <div class="ui grid">
-      <div class="seven wide column" style="margin:50px">
-        <h2>Studio Shifra -- Ruby on Rails(postgreSQL)</h2>
-        <h3>E commerce site made for a local artist client to display and sell
-         their art work. Designed specifically with their product and market in mind. All features are handmade, which include a
-         shopping cart for both users and guests, credit card payments, user information security measures, and a message board/reviews for users</h3>
-         <a target="_blank" href = "https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
-
-       </div>
-      <div class="seven wide column" style="padding:20px">
-        <a target="_blank" href ="https://studio-ben-shifra.herokuapp.com"><img src="http://i.imgur.com/4ETB62L.png" class="proj-pic" /></a>
+    <div class="ui active bottom attached segment" id = "ruby-proj">
+      <div class="ui container-fluid proj1">
+        <div class="ui grid">
+          <div class="seven wide column" style="padding:20px">
+            <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/5uQyk1D.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>YardSpace -- Ruby on Rails(postgreSQL)</h2>
+            <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+            <a target="_blank" href="https://github.com/jesser360/YardSpace"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="ui container-fluid proj2">
+        <div class="ui grid">
+          <div class="seven wide column" style="padding:20px">
+            <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/YSlBTBZ.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>TradeUp -- Ruby on Rails(postgreSQL)</h2>
+            <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+            <a target="_blank" href="https://github.com/jesser360/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <br />
-  <div class="ui container-fluid proj1">
-    <div class="ui grid">
-      <div class="seven wide column" style="padding:20px">
-        <a target="_blank" href ="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/YSlBTBZ.png" class="proj-pic" /></a>
+    <div class=" ui bottom attached segment hidden" id = "free-proj">
+      <div class="ui container-fluid proj2">
+        <div class="ui grid">
+          <div class="seven wide column">
+            <a target="_blank" href="https://studio-ben-shifra.herokuapp.com"><img src="http://i.imgur.com/4ETB62L.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>Studio Shifra -- Ruby on Rails(postgreSQL)</h2>
+            <h3>E commerce site made for a local artist client to display and sell
+              their art work. Designed specifically with their product and market in mind. All features are handmade, which include a
+              shopping cart for both users and guests, credit card payments, user information security measures, and a message board/reviews for users</h3>
+              <a target="_blank" href="https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="ui container-fluid proj1">
+          <div class="ui grid">
+            <div class="seven wide column">
+              <a target="_blank" href="http://www.zoezimski.com/"><img src="http://i.imgur.com/SgjCK8F.png" class="proj-pic" /></a>
+            </div>
+            <div class="seven wide column" style="margin:50px">
+              <h2>Designer Profile -- Angular(MEAN stack)</h2>
+              <h3>Personal website for a New York fashion designer to display their work and the events they organize. Design was very important to this client and had to accurately reflect the style and theme of their products.
+                  Built as a single page app with quick loading components and data binding for the front and back end</h3>
+                <a target="_blank" href="https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="ui bottom attached segment hidden" id = "react-proj">
+      <div class="ui container-fluid proj1">
+        <div class="ui grid">
+          <div class="seven wide column" style="padding:20px">
+            <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/6NYuaxQ.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>WingIt Travel-- React(MERN stack)</h2>
+            <h3>An app that allows users to explore new cities, connect with others, and post their experiences. Built with React on the front end, and MongoDb,Express, and Node.js on the backend. Features include an authorization system with email authentication, full blog crud, single page app, external city api, reviews and ratings by each user</h3>
+            <a target="_blank" href="https://github.com/jesser360/wingIt"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+          </div>
+        </div>
       </div>
-      <div class="seven wide column" style="margin:50px">
-        <h2>TradeUp -- Ruby on Rails(postgreSQL)</h2>
-        <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
-        <a target="_blank" href ="https://github.com/namelessprofit/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+      <br />
+      <div class="ui container-fluid proj2">
+        <div class="ui grid">
+          <div class="seven wide column" style="padding:20px">
+            <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/ftTPrmd.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>Barkr -- MEN stack</h2>
+            <h3>Barkr is a social meetup app where Dog owners can meetup based on their dog's profile. Technolgies used were MongoDb, Exress, and Node.js, wuith Javacscript and jQuery on the front end. Users are able to sign in, create personal and puppy profiles, then search for other compatible pups and people to meetup with</h3>
+            <a target="_blank" href="https://github.com/jesser360/barkr"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <br />
-
+    <div class="ui bottom attached segment hidden " id = "games-proj">
+      <div class="ui container-fluid proj1">
+        <div class="ui grid">
+          <div class="seven wide column" style="padding:20px">
+            <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/ys3dg8x.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>The Presidential Race -- MEN stack</h2>
+            <h3>Game allows two users to race each other with the candidate of their choice, using the computer keys. The timer counts down and its off to races to see who has the quicker fingers! The game keeps track of score, provides commentary, and has an interactive map with roadblocks and traps</h3>
+            <a target="_blank" href="https://github.com/jesser360/Racing-Game"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="ui container-fluid proj2">
+        <div class="ui grid">
+          <div class="seven wide column" style="padding:20px">
+            <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/4yK7jvw.png" class="proj-pic" /></a>
+          </div>
+          <div class="seven wide column" style="margin:50px">
+            <h2>Tic Tac Toe- MEN stack</h2>
+            <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+            <a target="_blank" href="https://github.com/namelessprofit/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 
