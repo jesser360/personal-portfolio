@@ -25,17 +25,19 @@
   clear:both;
 }
 .item{
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Optima';
+  ;text-shadow: 1px 1px 1px black;
 }
 .hi-im{
   font-size: 60px;
   color:#6f6d6f;
-  margin:60px;
-  margin-top: 30px !important;
+  margin:80px;
+  margin-top: 100px !important;
   font-family: 'Optima';
 }
 .title{
+  margin-top:40px;
   font-size: 60px;
   color:#6f6d6f;
   font-family: 'Optima';
@@ -53,6 +55,7 @@
 .click{
   margin-top:-15px;
   margin-left:15px;
+  font-style: italic !important;
 }
 .git-pic{
   height:4vw;
@@ -73,8 +76,8 @@
 -moz-border-radius: 50%;
 height: auto;
 width: auto;
-max-width: 85px;
-max-height: 85px;
+max-width: 65px;
+max-height: 65px;
 margin-top: 75px;
 border:3px solid black;
 -webkit-box-shadow: 1px 1px 1px 1px #fff;
@@ -107,10 +110,7 @@ box-shadow: 1px 1px 1px 1px #fff;
  font-size: 19px;
  font-family: 'Optima';
 }
-.about{
-  color:#b6b4b6;
-  font-family: 'Optima';
-}
+
 .contact{
   color:white;
   font-family: 'Optima';
@@ -148,7 +148,21 @@ body{
 .words{
   font-family: 'Optima';
   margin:40px;
+  text-shadow: 2px 2px 7px black;
+  color:#b6b4b6;
 }
 .des{
   font-family: 'Optima';
+}
+.skills{
+  font-family: 'Optima';
+  font-size:35px;
+  text-shadow: 2px 2px 11px black;
+  color:#b6b4b6;
+}
+.aboutem{
+  margin-top: 60px !important;
+}
+#port{
+  margin-bottom:70px;
 }
