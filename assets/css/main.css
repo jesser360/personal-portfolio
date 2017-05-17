@@ -125,6 +125,9 @@ box-shadow: 1px 1px 1px 1px #fff;
   width:3vw;
   margin:15px;
 }
+.ikon{
+  width:5vw;
+}
 .iconz:hover{
   animation: pulse 1s infinite;
 }
@@ -144,6 +147,7 @@ body{
 }
 .words{
   font-family: 'Optima';
+  margin:40px;
 }
 .des{
   font-family: 'Optima';
