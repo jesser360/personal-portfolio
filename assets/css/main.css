@@ -17,6 +17,7 @@
   position: relative;
   z-index: -1;
   clear:both;
+  font-family: 'Optima';
 }
 .empty-block{
   display: block;
@@ -25,16 +26,19 @@
 }
 .item{
   font-size: 20px;
+  font-family: 'Optima';
 }
 .hi-im{
   font-size: 60px;
-  color:gray;
+  color:#6f6d6f;
   margin:60px;
   margin-top: 30px !important;
+  font-family: 'Optima';
 }
 .title{
   font-size: 60px;
-  color:gray;
+  color:#6f6d6f;
+  font-family: 'Optima';
 }
 .trans{
   font-size: 30px;
@@ -57,10 +61,11 @@
   animation: pulse 2s infinite;
 }
 .proj1{
-  background-color: lightgray;
+  background-color: #b6b4b6;
+  border:none
 }
 .proj2{
-  background-color: darkgray;
+  background-color: #6f6d6f;
 }
 .home-pic{
   border-radius: 50%;
@@ -88,7 +93,6 @@ height: auto;
 width: auto;
 max-width: 200px;
 max-height: 200px;
-margin-top: 75px;
 border:3px solid black;
 -webkit-box-shadow: 1px 1px 1px 1px #fff;
 -moz-box-shadow: 1px 1px 1px 1px #fff;
@@ -101,9 +105,46 @@ box-shadow: 1px 1px 1px 1px #fff;
  z-index:100;
  font-weight:bold;
  font-size: 19px;
+ font-family: 'Optima';
 }
 .about{
+  color:#b6b4b6;
+  font-family: 'Optima';
+}
+.contact{
   color:white;
+  font-family: 'Optima';
+}
+.phone{
+  height:110%;
+  width:100%;
+  margin-top: -14px;
+  z-index:-10;
+}
+.iconz{
+  width:3vw;
+  margin:15px;
+}
+.iconz:hover{
+  animation: pulse 1s infinite;
+}
+.phone-icon{
+  width:3vw;
+  /*margin-right:12vw;*/
+}
+.button:hover{
+  animation: pulse 2s infinite;
+}
+.button{
+  width: 155px;
+  font-size: 155px;
+}
+body{
+  font-family: 'Optima';
 }
 .words{
+  font-family: 'Optima';
+}
+.des{
+  font-family: 'Optima';
 }

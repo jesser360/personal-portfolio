@@ -10,14 +10,6 @@ $('.home-pic').mouseleave(function(){
   $('#msg').addClass('hidden');
 })
 
- // $('.yard-still').hover(function(){
- //   $('.yard-still').addClass('hidden')
- //   $('.yard-gif').removeClass('hidden')
- // })
- // $('.yard-still').mouseleave(function(){
- //   $('.yard-still').removeClass('hidden')
- //   $('.yard-gif').addClass('hidden')
- // })
 
  $(".trade-still").hover(function(){
    $("#trade-still").attr("src","http://i.imgur.com/DiaXMOZ.gif");
@@ -81,12 +73,21 @@ $("#port-btn").click(function() {
         scrollTop: $("#port").offset().top
     }, 1500);
 });
-
-
-
-
-
-
+$("#about-btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 1500);
+});
+$("#top-btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#top").offset().top
+    }, 900);
+});
+$("#contact-btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1500);
+});
 
 // Parallax
 var words = $('.words');
@@ -112,16 +113,13 @@ var parallaxI = function() {
     icon.style.transform = translate3d;
   }
 };
-
 window.requestAnimationFrame(parallaxW);
 window.addEventListener('scroll', function() {
   // Parallax layers
   scrollPos = window.pageYOffset;
   window.requestAnimationFrame(parallaxW);
   window.requestAnimationFrame(parallaxI);
-
 });
-
 
 
 });

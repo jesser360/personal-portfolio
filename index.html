@@ -19,16 +19,16 @@
       </div>
     </div>
   </div>
-  <div class="ui grid centered proj-header ">
+  <div id="top" class="ui grid centered proj-header ">
     <div class=" two wide column">
-      <a href="#"><img src ="http://i.imgur.com/j5v8TRk.jpg" class ="home-pic" /><p id ="msg" class="hidden">back to the top?</p></a>
+      <img id="top-btn" src ="http://i.imgur.com/TAALsdM.png" class ="home-pic" /><p id ="msg" class="hidden" style="margin-left:10px">going up?</p>
     </div>
     <div class ="six wide column">
     </div>
     <div class=" eight wide column">
       <div class="ui three item menu stay" style="background-color: transparent;border:none !important">
         <a id ="about-btn" class=" item trans" style="color:lightgray">About</a>
-        <a id = "port-btn" class="item trans" style="color:gray">Portfolio</a>
+        <a id = "port-btn" class="item trans" style="color:#6f6d6f">Portfolio</a>
         <a id = "contact-btn" class = "item trans">Contact</a>
       </div>
     </div>
@@ -37,19 +37,19 @@
   </div>
     <div class = "ui grid">
       <div class ="row open-msg">
-      <div class ="eight wide column">
+      <div class ="nine wide column">
         <h1 class =" hi-im">Hi, Im Jesse. Im a...</h1>
       </div>
-      <div class ="seven wide column left align ">
+      <div class ="six wide column left align ">
         <br /><br /><br />
-        <div class ="title" id ='content-1'>Web Developer</div>
+        <div class ="title" id ='content-1'>Developer</div>
         <div class ="title" id ='content-2'>Musician</div>
         <div class ="title" id ='content-3'>Martial Artist</div>
-        <div class ="title" id ='content-4'>World Traveler</div>
-        <div class ="title" id ='content-5'>Web Developer</div>
-        <div class ="title" id ='content-6'>Massage Therapist</div>
+        <div class ="title" id ='content-4'>Traveler</div>
+        <div class ="title" id ='content-5'>Developer</div>
+        <div class ="title" id ='content-6'>Mixologist</div>
         <div class ="title" id ='content-7'>Meme Lover</div>
-        <div class ="title" id ='content-8'>Fortune Teller</div>
+        <div class ="title" id ='content-8'>Juggler</div>
 
       </div>
   </div>
@@ -57,14 +57,13 @@
 
 <div class ="ui grid container about">
       <div class ="sixteen wide column">
-        <!-- <img class ="bigger" src="http://i.imgur.com/j5v8TRk.jpg" /> -->
         <br />
-        <h1 class = "centered">Skills include</h1>
+        <h1 class = "centered" id="about" style="font-family: 'Optima';font-size:35px">Skills include</h1>
         <br />
       </div>
         <div class ="row">
           <div class ="four wide column left aligned">
-            <h1 id ="riri" class ="words">ReactJS</h1>
+            <h1 class ="words">ReactJS</h1>
             <h1 class ="words">AngularJS</h1>
             <h1 class ="words">Ruby</h1>
             <h1 class ="words">Rails</h1>
@@ -92,12 +91,13 @@
             <h1 class ="icons">Icon</h1>
             <h1 class ="icons">Icon</h1>
             <h1 class ="icons">Icon</h1>
+            <br /><br />
           </div>
       </div>
   </div>
   <div class="ui grid centered proj-header ">
     <div class="row">
-      <h1 class="five  wide proj-header"style="font-size:35px;color:gray" id="port">Portfolio</h1>
+      <h1 class="des five column wide proj-header"style="font-size:35px;color:gray" id="port">Portfolio</h1>
     </div>
   </div>
   <div class="ui container">
@@ -109,16 +109,16 @@
       <a class="item games" style="color:gray">Games</a>
     </div>
   </div>
-    <div class="ui active bottom attached segment" id = "ruby-proj">
-      <div class="ui container-fluid proj1">
+    <div class="ui active bottom attached segment" style ="border:none;background-color:none"id = "ruby-proj">
+      <div class="ui proj1">
         <div class="ui grid">
           <div class="eight wide column" style="padding:20px">
-            <a target="_blank" class ="yard-still" href="http://i.imgur.com/ekydVZX.png"><img id="yard-still" src="http://i.imgur.com/5uQyk1D.png" class="proj-pic" /></a>
-            <h2 class = "hidden click" id="yardclick">Click to check out the actual site!</h2>
+            <a target="_blank" class ="yard-still" href="https://yardspace.herokuapp.com"><img id="yard-still" src="http://i.imgur.com/5uQyk1D.png" class="proj-pic" /></a>
+            <h2 class = "hidden click des" id="yardclick">Click to check out the actual site!</h2>
           </div>
-          <div class="six wide column" style="margin:50px">
-            <h2>YardSpace -- Ruby on Rails(postgreSQL)</h2>
-            <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+          <div class="six wide column des" style="margin:50px">
+            <h2 class ="des">YardSpace -- Ruby on Rails(postgreSQL)</h2>
+            <h3 class ="des">Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
             <a target="_blank" href="https://github.com/jesser360/YardSpace"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
           </div>
         </div>
@@ -128,39 +128,39 @@
         <div class="ui grid">
           <div class="eight wide column" style="padding:20px">
             <a target="_blank" class ="trade-still" href="https://trade-up.herokuapp.com"><img id = "trade-still" src="http://i.imgur.com/9LCgIzz.png" class="proj-pic" /></a>
-            <h2 class = "hidden click" id="tradeclick">Click to check out the actual site!</h2>
+            <h2 class = "hidden click des" id="tradeclick">Click to check out the actual site!</h2>
           </div>
           <div class="six wide column" style="margin:50px">
-            <h2>TradeUp -- Ruby on Rails(postgreSQL)</h2>
-            <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+            <h2 class ="des">TradeUp -- Ruby on Rails(postgreSQL)</h2>
+            <h3 class ="des">Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
             <a target="_blank" href="https://github.com/jesser360/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
           </div>
         </div>
       </div>
     </div>
     <div class=" ui bottom attached segment hidden" id = "free-proj">
-      <div class="ui container-fluid proj2">
+      <div class="ui proj2">
         <div class="ui grid">
           <div class="seven wide column">
             <a target="_blank" href="https://studio-ben-shifra.herokuapp.com"><img src="http://i.imgur.com/4ETB62L.png" class="proj-pic" /></a>
           </div>
           <div class="seven wide column" style="margin:50px">
-            <h2>Studio Shifra -- Ruby on Rails(postgreSQL)</h2>
-            <h3>E commerce site made for a local artist client to display and sell
+            <h2 class ="des">Studio Shifra -- Ruby on Rails(postgreSQL)</h2>
+            <h3 class ="des">E commerce site made for a local artist client to display and sell
               their art work. Designed specifically with their product and market in mind. All features are handmade, which include a
               shopping cart for both users and guests, credit card payments, user information security measures, and a message board/reviews for users</h3>
               <a target="_blank" href="https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
             </div>
           </div>
         </div>
-        <div class="ui container-fluid proj1">
+        <div class="ui proj1">
           <div class="ui grid">
             <div class="seven wide column">
               <a target="_blank" href="http://www.zoezimski.com/"><img src="http://i.imgur.com/SgjCK8F.png" class="proj-pic" /></a>
             </div>
             <div class="seven wide column" style="margin:50px">
-              <h2>Designer Profile -- Angular(MEAN stack)</h2>
-              <h3>Personal website for a New York fashion designer to display their work and the events they organize. Design was very important to this client and had to accurately reflect the style and theme of their products.
+              <h2 class ="des">Designer Profile -- Angular(MEAN stack)</h2>
+              <h3 class ="des">Personal website for a New York fashion designer to display their work and the events they organize. Design was very important to this client and had to accurately reflect the style and theme of their products.
                   Built as a single page app with quick loading components and data binding for the front and back end</h3>
                 <a target="_blank" href="https://github.com/jesser360/Studio-ben-Shifra"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
               </div>
@@ -174,8 +174,8 @@
             <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/6NYuaxQ.png" class="proj-pic" /></a>
           </div>
           <div class="seven wide column" style="margin:50px">
-            <h2>WingIt Travel-- React(MERN stack)</h2>
-            <h3>An app that allows users to explore new cities, connect with others, and post their experiences. Built with React on the front end, and MongoDb,Express, and Node.js on the backend. Features include an authorization system with email authentication, full blog crud, single page app, external city api, reviews and ratings by each user</h3>
+            <h2 class ="des">WingIt Travel-- React(MERN stack)</h2>
+            <h3 class ="des">An app that allows users to explore new cities, connect with others, and post their experiences. Built with React on the front end, and MongoDb,Express, and Node.js on the backend. Features include an authorization system with email authentication, full blog crud, single page app, external city api, reviews and ratings by each user</h3>
             <a target="_blank" href="https://github.com/jesser360/wingIt"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
           </div>
         </div>
@@ -187,8 +187,8 @@
             <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/ftTPrmd.png" class="proj-pic" /></a>
           </div>
           <div class="seven wide column" style="margin:50px">
-            <h2>Barkr -- MEN stack</h2>
-            <h3>Barkr is a social meetup app where Dog owners can meetup based on their dog's profile. Technolgies used were MongoDb, Exress, and Node.js, wuith Javacscript and jQuery on the front end. Users are able to sign in, create personal and puppy profiles, then search for other compatible pups and people to meetup with</h3>
+            <h2 class ="des">Barkr -- MEN stack</h2>
+            <h3 class ="des">Barkr is a social meetup app where Dog owners can meetup based on their dog's profile. Technolgies used were MongoDb, Exress, and Node.js, wuith Javacscript and jQuery on the front end. Users are able to sign in, create personal and puppy profiles, then search for other compatible pups and people to meetup with</h3>
             <a target="_blank" href="https://github.com/jesser360/barkr"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
           </div>
         </div>
@@ -201,8 +201,8 @@
             <a target="_blank" href="https://yardspace.herokuapp.com"><img src="http://i.imgur.com/ys3dg8x.png" class="proj-pic" /></a>
           </div>
           <div class="seven wide column" style="margin:50px">
-            <h2>The Presidential Race -- MEN stack</h2>
-            <h3>Game allows two users to race each other with the candidate of their choice, using the computer keys. The timer counts down and its off to races to see who has the quicker fingers! The game keeps track of score, provides commentary, and has an interactive map with roadblocks and traps</h3>
+            <h2 class ="des">The Presidential Race -- MEN stack</h2>
+            <h3 class ="des">Game allows two users to race each other with the candidate of their choice, using the computer keys. The timer counts down and its off to races to see who has the quicker fingers! The game keeps track of score, provides commentary, and has an interactive map with roadblocks and traps</h3>
             <a target="_blank" href="https://github.com/jesser360/Racing-Game"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
           </div>
         </div>
@@ -214,11 +214,33 @@
             <a target="_blank" href="https://trade-up.herokuapp.com"><img src="http://i.imgur.com/4yK7jvw.png" class="proj-pic" /></a>
           </div>
           <div class="seven wide column" style="margin:50px">
-            <h2>Tic Tac Toe- MEN stack</h2>
-            <h3>Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
+            <h2 class ="des">Tic Tac Toe- MEN stack</h2>
+            <h3 class ="des">Proof of concept of a social platform connecting travelers with hosts who have made their yards available to camp in. Features real-time messaging abilities, calendar booking system, friend requests, reviews, ratings and much more.  The app is user tested, production ready, and slowly growing a user base</h3>
             <a target="_blank" href="https://github.com/namelessprofit/TradeUp_1"><img src="http://i.imgur.com/IFKFr9N.png" class="git-pic" /></a>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class ="ui container-fluid grid contact right aligned" style="background-color:#050b1c">
+      <div class = "four wide column">
+        <br /><br />
+        <h2><img class = "phone-icon" src ="http://i.imgur.com/4igLBAx.png" />(510)590-8368</h2>
+        <h2><img class = "phone-icon" src ="http://i.imgur.com/LePlpk1.png" />  jesser360@gmail.com</h2>
+        <br /><br />
+        <a target="_blank" href = "https://drive.google.com/drive/my-drive"><button class="ui inverted grey button">Resume</button></a>
+
+      </div>
+      <div class ="four wide column">
+        <h1 id ="contact" class ="des">Get to know me</h1>
+        <img class ="bigger" src="http://i.imgur.com/j5v8TRk.jpg" />
+        <br />
+        <a target="_blank" href ="https://www.linkedin.com/in/jesse-rosenbloom-4a25996a/"><img src = "http://i.imgur.com/yfrzLBb.png" class ="iconz" /></a>
+        <a target="_blank" href ="https://github.com/jesser360"><img src = "http://i.imgur.com/Zk5HkNK.jpg" class ="iconz" /></a>
+        <a target="_blank" href ="https://www.facebook.com/akhilananda.rosenbloom"><img src = "http://i.imgur.com/4GAbizY.png" class ="iconz" /></a>
+      </div>
+      <div class ="eight wide column">
+        <img src= "http://i.imgur.com/FYfBwyz.gif" class ="phone" />
       </div>
     </div>
 
